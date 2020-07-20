@@ -30,7 +30,7 @@ public class UploadService {
 	@Autowired
 	private RestTemplate restTemplate;
 
-	@Value("${spring.rest.gelm.url}")
+	@Value("${spring.rest.url}")
 	private String restUrl;
 
 	public String uploadService(HttpServletRequest request, Model model, //
